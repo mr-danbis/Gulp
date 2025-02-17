@@ -1,6 +1,8 @@
 $maxWidth: 1920;
 $minWidth: 320;
 
+$mainColor: rgb(0, 72, 206);
+
 @mixin adaptive-font($pcValue, $mobValue) {
     $addSize: $pcValue - $mobValue;
     $differenceWidth: $maxWidth - $minWidth;
